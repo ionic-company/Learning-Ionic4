@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Working with Gestures
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="home" (swipe)="swipeEvent($event)" swipe-vertical (onSwipeUp)="onSwipeUp($event)" (onSwipeDown)="onSwipeDown($event)">
+
+    <h2 class="center">My7Section</h2> 
+   
+</ion-content>
