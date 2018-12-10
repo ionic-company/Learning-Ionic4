@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Film Details</ion-title>
+    <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+	Film ID: {{ filmid }}
+	<ion-button full (click)="goBack()">Go Back!</ion-button>
+</ion-content>

@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Films</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+	<ion-button expand="full" (click)="gotoDetails()">Go to Details</ion-button>
+	<ion-button expand="full" (click)="gotoPlanets()">Switch to Planets</ion-button>
+
+	<h3>/tabs/(films:films/42)</h3>
+  <ion-button expand="full" href="/tabs/(films:films/42)" routerDirection="forward">Forward to Details with link</ion-button>
+
+	<h3>Using Functions</h3>
+	<ion-button expand="full" (click)="gotoDetails()">Go to Details with function gotoDetails</ion-button>
+	<ion-button expand="full" (click)="gotoDetails2()">Go to Details with function gotoDetails2</ion-button>
+
+</ion-content>
